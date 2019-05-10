@@ -1,0 +1,31 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://rimerman.sharepoint.com/sites/BlankSite/SitePages/Home.aspx",
+      "customActions": {
+        "88c2b78d-edc8-4f28-98e9-f4aadf868be9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "Top": "Top area of the Page",
+            "Bottom":"Bottom area of the page"
+          }
+        }
+      }
+    },
+    "header": {
+      "pageUrl": "https://rimerman.sharepoint.com/sites/BlankSite/SitePages/Home.aspx",
+      "customActions": {
+        "88c2b78d-edc8-4f28-98e9-f4aadf868be9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
